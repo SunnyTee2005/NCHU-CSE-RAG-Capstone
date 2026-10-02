@@ -1,0 +1,31 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+.claude/
+
+# Vector databases (rebuild with ingest.py)
+chroma_db/
+my_vector_db/
+
+# Source PDFs and generated data (not redistributed)
+/*.pdf
+all_chunks.json
+temp_*.md
+temp_*.json
+experiment_results.md
+gemini_output.md
+output*.md
+chunking_results.md
+processed_tables.json
+final_ingestion_data.json

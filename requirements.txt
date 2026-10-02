@@ -1,0 +1,9 @@
+# Python 3.10+
+chromadb==1.5.5
+google-generativeai==0.8.5
+langchain-text-splitters==1.1.1
+python-dotenv==1.1.1
+streamlit==1.49.1
+
+# 只有 legacy/extract_pdf.py 需要：
+# pdfplumber==0.5.28
